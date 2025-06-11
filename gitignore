@@ -1,0 +1,15 @@
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/
+android/.gradle/
+android/.idea/
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+*.log
+.DS_Store
