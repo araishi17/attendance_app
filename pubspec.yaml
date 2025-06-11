@@ -1,0 +1,28 @@
+name: attendance_app
+description: Aplikasi absensi dan laporan pekerjaan harian berbasis Flutter dan Firebase
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  geolocator: ^12.0.0
+  firebase_messaging: ^15.1.3
+  pdf: ^3.11.1
+  path_provider: ^2.1.4
+  open_file: ^3.5.8
+  intl: ^0.19.0
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
