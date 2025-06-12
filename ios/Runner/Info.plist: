@@ -1,0 +1,35 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleName</key>
+  <string>aplikasi_kehadiran</string>
+  <key>CFBundleIdentifier</key>
+  <string>com.example.app</string>
+  <key>CFBundleShortVersionString</key>
+  <string>1.0.0</string>
+  <key>CFBundleVersion</key>
+  <string>1</string>
+  <key>LSRequiresIPhoneOS</key>
+  <true/>
+  
+  <!-- Izin Lokasi -->
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string>Membutuhkan akses lokasi untuk absensi</string>
+  <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+  <string>Membutuhkan akses lokasi untuk absensi</string>
+  
+  <!-- Konfigurasi Firebase -->
+  <key>FirebaseAppDelegateProxyEnabled</key>
+  <false/>
+  
+  <!-- Background Processing -->
+  <key>UIBackgroundModes</key>
+  <array>
+    <string>fetch</string>
+    <string>location</string>
+    <string>remote-notification</string>
+  </array>
+</dict>
+</plist>
